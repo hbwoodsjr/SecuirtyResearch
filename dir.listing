@@ -1,0 +1,392 @@
+user@azeria-labs-arm:~$ ls -al firmware/Tenda2/squashfs-root/*
+lrwxrwxrwx 1 user user    8 Mar  2 21:41 firmware/Tenda2/squashfs-root/etc -> /var/etc
+lrwxrwxrwx 1 user user    9 Mar  2 21:41 firmware/Tenda2/squashfs-root/home -> /var/home
+-rwxr--r-- 1 user user 6378 Mar  2 21:51 firmware/Tenda2/squashfs-root/hooks.so
+lrwxrwxrwx 1 user user   11 Mar  2 21:41 firmware/Tenda2/squashfs-root/init -> bin/busybox
+lrwxrwxrwx 1 user user    9 Mar  2 21:41 firmware/Tenda2/squashfs-root/root -> /var/root
+lrwxrwxrwx 1 user user   11 Mar  2 21:41 firmware/Tenda2/squashfs-root/webroot -> var/webroot
+
+firmware/Tenda2/squashfs-root/bin:
+total 5744
+drwxr-xr-x  2 user user   4096 May 10  2017 .
+drwxr-xr-x 15 user user   4096 Mar  2 21:52 ..
+-rwxr-xr-x  1 user user  40200 May 10  2017 3322ip
+-rwxr-xr-x  1 user user  15544 May 10  2017 88ip
+-rwxr-xr-x  1 user user   4876 May 10  2017 alibaba_update
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 ash -> busybox
+-rwxr-xr-x  1 user user  78328 May 10  2017 auto_discover
+-rwxr-xr-x  1 user user  14092 May 10  2017 bcrelay
+-rwxr-xr-x  1 user user 176080 May 10  2017 business_proc
+-rwxr-xr-x  1 user user 381360 May 10  2017 busybox
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 cat -> busybox
+-rwxr-xr-x  1 user user  16868 May 10  2017 cfm
+-rwxr-xr-x  1 user user  51248 May 10  2017 cfmd
+-rwxr-xr-x  1 user user  18040 May 10  2017 chat
+-rwxr-xr-x  1 user user 502748 May 10  2017 chkntfs
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 chmod -> busybox
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 cp -> busybox
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 cttyhack -> busybox
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 date -> busybox
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 dd -> busybox
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 df -> busybox
+-rwxr-xr-x  1 user user  96780 May 10  2017 dhcpcd
+lrwxrwxrwx  1 user user      8 Mar  2 21:41 dhcpcd_lan -> ./dhcpcd
+lrwxrwxrwx  1 user user      8 Mar  2 21:41 dhcpcd_wan1 -> ./dhcpcd
+lrwxrwxrwx  1 user user      8 Mar  2 21:41 dhcpcd_wan2 -> ./dhcpcd
+lrwxrwxrwx  1 user user      8 Mar  2 21:41 dhcpcd_wan3 -> ./dhcpcd
+lrwxrwxrwx  1 user user      8 Mar  2 21:41 dhcpcd_wan4 -> ./dhcpcd
+-rwxr-xr-x  1 user user 179656 May 10  2017 dhcps
+lrwxrwxrwx  1 user user      5 Mar  2 21:41 dhcps-guest -> dhcps
+-rwxr-xr-x  1 user user 212948 May 10  2017 dhttpd
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 dmesg -> busybox
+-rwxr-xr-x  1 user user  78572 May 10  2017 dnrd
+lrwxrwxrwx  1 user user      4 Mar  2 21:41 dnrd-guest -> dnrd
+lrwxrwxrwx  1 user user      4 Mar  2 21:41 dnrd-wisp -> dnrd
+-rwxr-xr-x  1 user user  45352 May 10  2017 dosfsck
+-rwxr-xr-x  1 user user  41648 May 10  2017 eapd
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 echo -> busybox
+-rwxr-xr-x  1 user user   9788 May 10  2017 emf
+-rwxr-xr-x  1 user user   3500 May 10  2017 envram
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 false -> busybox
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 fdisk -> busybox
+-rwxr-xr-x  1 user user 112348 May 10  2017 flash_erase
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 getopt -> busybox
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 grep -> busybox
+-rwxr-xr-x  1 user user 991092 May 10  2017 httpd
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 hush -> busybox
+-rwxr-xr-x  1 user user  42732 May 10  2017 igmpproxy
+-rwxr-xr-x  1 user user   6180 May 10  2017 igs
+-rwxr-xr-x  1 user user  27596 May 10  2017 inadyn
+-rwxr-xr-x  1 user user 255652 May 10  2017 ip
+-rwxr-xr-x  1 user user    721 May 10  2017 iprule.sh
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 kill -> busybox
+-rwxr-xr-x  1 user user   4048 May 10  2017 l2tp-control
+-rwxr-xr-x  1 user user  76364 May 10  2017 l2tpd
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 ln -> busybox
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 login -> busybox
+-rwxr-xr-x  1 user user   9856 May 10  2017 logserver
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 ls -> busybox
+-rwxr-xr-x  1 user user  40888 May 10  2017 lzma
+-rwxr-xr-x  1 user user 251208 May 10  2017 minidlna
+-rwxr-xr-x  1 user user 127028 May 10  2017 miniupnpd
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 mkdir -> busybox
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 mknod -> busybox
+-rwxr-xr-x  1 user user   7020 May 10  2017 moniter
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 more -> busybox
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 mount -> busybox
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 msh -> busybox
+-rwxr-xr-x  1 user user 109780 May 10  2017 multiWAN
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 mv -> busybox
+-rwxr-xr-x  1 user user 318012 May 10  2017 netctrl
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 netstat -> busybox
+-rwxr-xr-x  1 user user   4016 May 10  2017 nvram
+-rwxr-xr-x  1 user user  14012 May 10  2017 p910nd
+-rwxr-xr-x  1 user user  59312 May 10  2017 phddns
+lrwxrwxrwx  1 user user      8 Mar  2 21:41 phddns_wan1 -> ./phddns
+lrwxrwxrwx  1 user user      8 Mar  2 21:41 phddns_wan2 -> ./phddns
+lrwxrwxrwx  1 user user      8 Mar  2 21:41 phddns_wan3 -> ./phddns
+lrwxrwxrwx  1 user user      8 Mar  2 21:41 phddns_wan4 -> ./phddns
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 ping -> busybox
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 ping6 -> busybox
+-rwxr-xr-x  1 user user 268464 May 10  2017 pppd
+lrwxrwxrwx  1 user user      6 Mar  2 21:41 pppd_wan1 -> ./pppd
+lrwxrwxrwx  1 user user      6 Mar  2 21:41 pppd_wan2 -> ./pppd
+lrwxrwxrwx  1 user user      6 Mar  2 21:41 pppd_wan3 -> ./pppd
+lrwxrwxrwx  1 user user      6 Mar  2 21:41 pppd_wan4 -> ./pppd
+-rwxr-xr-x  1 user user   1333 May 10  2017 pppoeconfig.sh
+-rwxr-xr-x  1 user user  52700 May 10  2017 pptp
+-rwxr-xr-x  1 user user   1491 May 10  2017 pptpc244.sh
+-rwxr-xr-x  1 user user  45096 May 10  2017 pptp_callmgr
+-rwxr-xr-x  1 user user   1606 May 10  2017 pptpc.sh
+-rwxr-xr-x  1 user user  22292 May 10  2017 pptpctrl
+-rwxr-xr-x  1 user user  23212 May 10  2017 pptpd
+-rwxr-xr-x  1 user user   1515 May 10  2017 pptpd244.sh
+-rwxr-xr-x  1 user user   1651 May 10  2017 pptpd.sh
+lrwxrwxrwx  1 user user      6 Mar  2 21:41 pptppppd -> ./pppd
+lrwxrwxrwx  1 user user      6 Mar  2 21:41 pptppppd-server -> ./pppd
+lrwxrwxrwx  1 user user      6 Mar  2 21:41 pptp_wan1 -> ./pptp
+lrwxrwxrwx  1 user user      6 Mar  2 21:41 pptp_wan2 -> ./pptp
+lrwxrwxrwx  1 user user      6 Mar  2 21:41 pptp_wan3 -> ./pptp
+lrwxrwxrwx  1 user user      6 Mar  2 21:41 pptp_wan4 -> ./pptp
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 ps -> busybox
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 pwd -> busybox
+-rwxr-xr-x  1 user user  24528 May 10  2017 query_version
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 rm -> busybox
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 rmdir -> busybox
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 sed -> busybox
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 sh -> busybox
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 sleep -> busybox
+-rwxr-xr-x  1 user user  10184 May 10  2017 sntp
+-rwxr-xr-x  1 user user  13448 May 10  2017 speedtest
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 su -> busybox
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 tar -> busybox
+-rwxr-xr-x  1 user user  10072 May 10  2017 taskset
+-rwxr-xr-x  1 user user   9152 May 10  2017 tendaupload
+-rwxr-xr-x  1 user user   5628 May 10  2017 tendauploadcfe
+-rwxr-xr-x  1 user user 105672 May 10  2017 time_check
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 touch -> busybox
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 true -> busybox
+-rwxr-xr-x  1 user user   6544 May 10  2017 ucloud_v2
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 umount -> busybox
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 uname -> busybox
+-rwxr-xr-x  1 user user 140140 May 10  2017 unbzip2
+-rwxr-xr-x  1 user user  11088 May 10  2017 unmkpkg
+-rwxr-xr-x  1 user user   7308 May 10  2017 upgrade
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 usleep -> busybox
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 vi -> busybox
+-rwxr-xr-x  1 user user 164788 May 10  2017 vsftpd
+-rwxr-xr-x  1 user user  16504 May 10  2017 wan_surf
+-rwxr-xr-x  1 user user   5824 May 10  2017 wins
+-rwxr-xr-x  1 user user 260812 May 10  2017 wps_monitor
+lrwxrwxrwx  1 user user      6 Mar  2 21:41 xl2tpcltpppd -> ./pppd
+-rwxr-xr-x  1 user user 108064 May 10  2017 xl2tpd
+lrwxrwxrwx  1 user user      8 Mar  2 21:41 xl2tpd-server -> ./xl2tpd
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 xl2tpd_wan1 -> ./l2tpd
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 xl2tpd_wan2 -> ./l2tpd
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 xl2tpd_wan3 -> ./l2tpd
+lrwxrwxrwx  1 user user      7 Mar  2 21:41 xl2tpd_wan4 -> ./l2tpd
+lrwxrwxrwx  1 user user      6 Mar  2 21:41 xl2tppppd -> ./pppd
+
+firmware/Tenda2/squashfs-root/cfg:
+total 264
+drwxr-xr-x  2 user user   4096 Jan  1  2000 .
+drwxr-xr-x 15 user user   4096 Mar  2 21:52 ..
+-rw-r--r--  1 root root 131072 Jan  1  2000 mib_backup.cfg
+-rw-r--r--  1 root root 131072 Jan  1  2000 mib.cfg
+
+firmware/Tenda2/squashfs-root/dev:
+total 8
+drwxr-xr-x  2 user user 4096 May 10  2017 .
+drwxr-xr-x 15 user user 4096 Mar  2 21:52 ..
+
+firmware/Tenda2/squashfs-root/etc_ro:
+total 796
+drwxr-xr-x  8 user user   4096 May 10  2017 .
+drwxr-xr-x 15 user user   4096 Mar  2 21:52 ..
+-rwxr-xr-x  1 user user 218927 May 10  2017 features.cfg
+-rw-r--r--  1 user user     35 May 10  2017 fireversion.cfg
+-rwxr-xr-x  1 user user    267 May 10  2017 fstab
+-rwxr-xr-x  1 user user     10 May 10  2017 group
+-rwxr-xr-x  1 user user    108 May 10  2017 hotplug2.rules
+-rwxr-xr-x  1 user user 223451 May 10  2017 HP_P1008.img
+drwxr-xr-x  2 user user   4096 May 10  2017 init.d
+-rwxr-xr-x  1 user user    166 May 10  2017 inittab
+drwxr-xr-x  2 user user   4096 May 10  2017 iproute2
+-rwxr-xr-x  1 user user   1548 May 10  2017 ld.so.cache
+-rwxr-xr-x  1 user user     14 May 10  2017 ld.so.conf
+-rwxr-xr-x  1 user user  26355 May 10  2017 mac_vendor.txt
+-rwxr-xr-x  1 user user      0 May 10  2017 mdev.conf
+-rwxr-xr-x  1 user user    363 May 10  2017 minidlna.conf
+drwxr-xr-x  3 user user   4096 May 10  2017 nginx
+-rwxr-xr-x  1 user user    256 May 10  2017 passwd
+-rwxr-xr-x  1 user user 240468 May 10  2017 policy_bak.cfg
+drwxr-xr-x  3 user user   4096 May 10  2017 ppp
+-rwxr-xr-x  1 user user      2 May 10  2017 printer_switch
+-rwxr-xr-x  1 user user    158 May 10  2017 proto_class.txt
+-rwxr-xr-x  1 user user     52 May 10  2017 shadow
+-rwxr-xr-x  1 user user    919 May 10  2017 smb.conf
+drwxr-xr-x  3 user user   4096 May 10  2017 udev
+drwx------  2 user user   4096 May 10  2017 vsftpd
+-rw-------  1 user user   4593 May 10  2017 vsftpd.conf
+-rwxr-xr-x  1 user user     89 May 10  2017 wds.sh
+
+firmware/Tenda2/squashfs-root/lib:
+total 7148
+drwxr-xr-x  3 user user    4096 May 10  2017 .
+drwxr-xr-x 15 user user    4096 Mar  2 21:52 ..
+-rwxr-xr-x  1 user user   21256 May 10  2017 ld-uClibc.so.0
+-rwxr-xr-x  1 user user  750052 May 10  2017 libavcodec.so.52
+-rwxr-xr-x  1 user user  274856 May 10  2017 libavformat.so.52
+-rwxr-xr-x  1 user user   43944 May 10  2017 libavutil.so.50
+-rwxr-xr-x  1 user user   83400 May 10  2017 libbcmcrypto.so
+-rwxr-xr-x  1 user user    5116 May 10  2017 libbcm.so
+-rwxr-xr-x  1 user user  140014 May 10  2017 libCfm.so
+-rwxr-xr-x  1 user user   31240 May 10  2017 libChipApi.so
+-rwxr-xr-x  1 user user  548152 May 10  2017 libcloud.so
+-rwxr-xr-x  1 user user  130332 May 10  2017 libcommon.so
+lrwxrwxrwx  1 user user      18 Mar  2 21:41 libcrypto.so -> libcrypto.so.1.0.0
+-rwxr-xr-x  1 user user 1758109 May 10  2017 libcrypto.so.1.0.0
+-rwxr-xr-x  1 user user   12996 May 10  2017 libcrypt.so.0
+-rwxr-xr-x  1 user user  420536 May 10  2017 libc.so.0
+-rwxr-xr-x  1 user user    9052 May 10  2017 libdl.so.0
+-rwxr-xr-x  1 user user  189272 May 10  2017 libexif.so.12
+-rwxr-xr-x  1 user user  168468 May 10  2017 libFLAC.so.8
+-rwxr-xr-x  1 user user    6004 May 10  2017 libflow.so
+-rwxr-xr-x  1 user user    4458 May 10  2017 libfoo.so
+-rwxr-xr-x  1 user user   41040 May 10  2017 libgcc_s.so.1
+-rwxr-xr-x  1 user user   74768 May 10  2017 libid3tag.so.0
+-rwxr-xr-x  1 user user  104468 May 10  2017 libjpeg.so
+-rwxr-xr-x  1 user user   66424 May 10  2017 libm.so.0
+-rwxr-xr-x  1 user user    4772 May 10  2017 libnsl.so.0
+-rwxr-xr-x  1 user user  614943 May 10  2017 libntfs-3g.so.81
+-rwxr-xr-x  1 user user    3428 May 10  2017 libnvram.so
+-rwxr-xr-x  1 user user   15568 May 10  2017 libogg.so.0
+-rwxr-xr-x  1 user user   42610 May 10  2017 libpal_vendor.so
+-rwxr-xr-x  1 user user   63616 May 10  2017 libpthread.so.0
+-rwxr-xr-x  1 user user    4740 May 10  2017 libresolv.so.0
+-rwxr-xr-x  1 user user    5051 May 10  2017 librt.so.0
+-rwxr-xr-x  1 user user   57860 May 10  2017 libshared.so
+-rwxr-xr-x  1 user user  449752 May 10  2017 libsqlite3.so.0
+-rwxr-xr-x  1 user user  418900 May 10  2017 libtpi.so
+-rwxr-xr-x  1 user user  170580 May 10  2017 libucapi.so
+-rwxr-xr-x  1 user user   51240 May 10  2017 libupnp.so
+-rwxr-xr-x  1 user user    4955 May 10  2017 libutil.so.0
+-rwxr-xr-x  1 user user  164260 May 10  2017 libvorbis.so.0
+-rwxr-xr-x  1 user user   13329 May 10  2017 libvos_util.so
+-rwxr-xr-x  1 user user   85792 May 10  2017 libz.so
+lrwxrwxrwx  1 user user       7 Mar  2 21:41 libz.so.1 -> libz.so
+-rwxr-xr-x  1 user user     141 May 10  2017 Makefile
+drwxr-xr-x  3 user user    4096 May 10  2017 modules
+-rwxr-xr-x  1 user user   26426 May 10  2017 pppol2tp.so
+-rw-r--r--  1 user user   66596 May 10  2017 pptp.so
+-rwxr-xr-x  1 user user   46391 May 10  2017 rp-pppoe.so
+
+firmware/Tenda2/squashfs-root/mnt:
+total 8
+drwxr-xr-x  2 user user 4096 May 10  2017 .
+drwxr-xr-x 15 user user 4096 Mar  2 21:52 ..
+
+firmware/Tenda2/squashfs-root/proc:
+total 8
+drwxr-xr-x  2 user user 4096 May 10  2017 .
+drwxr-xr-x 15 user user 4096 Mar  2 21:52 ..
+
+firmware/Tenda2/squashfs-root/sbin:
+total 192
+drwxr-xr-x  2 user user   4096 May 10  2017 .
+drwxr-xr-x 15 user user   4096 Mar  2 21:52 ..
+lrwxrwxrwx  1 user user     14 Mar  2 21:41 arp -> ../bin/busybox
+lrwxrwxrwx  1 user user     14 Mar  2 21:41 blkid -> ../bin/busybox
+lrwxrwxrwx  1 user user     14 Mar  2 21:41 depmod -> ../bin/busybox
+lrwxrwxrwx  1 user user     14 Mar  2 21:41 eject -> ../bin/busybox
+lrwxrwxrwx  1 user user     14 Mar  2 21:41 getty -> ../bin/busybox
+lrwxrwxrwx  1 user user     14 Mar  2 21:41 halt -> ../bin/busybox
+lrwxrwxrwx  1 user user     14 Mar  2 21:41 ifconfig -> ../bin/busybox
+lrwxrwxrwx  1 user user     14 Mar  2 21:41 init -> ../bin/busybox
+lrwxrwxrwx  1 user user     14 Mar  2 21:41 insmod -> ../bin/busybox
+lrwxrwxrwx  1 user user     14 Mar  2 21:41 klogd -> ../bin/busybox
+lrwxrwxrwx  1 user user     14 Mar  2 21:41 logread -> ../bin/busybox
+lrwxrwxrwx  1 user user     14 Mar  2 21:41 lsmod -> ../bin/busybox
+lrwxrwxrwx  1 user user     14 Mar  2 21:41 makedevs -> ../bin/busybox
+lrwxrwxrwx  1 user user     14 Mar  2 21:41 mdev -> ../bin/busybox
+lrwxrwxrwx  1 user user     14 Mar  2 21:41 modprobe -> ../bin/busybox
+lrwxrwxrwx  1 user user     14 Mar  2 21:41 ping6 -> ../bin/busybox
+lrwxrwxrwx  1 user user     14 Mar  2 21:41 pivot_root -> ../bin/busybox
+lrwxrwxrwx  1 user user     14 Mar  2 21:41 poweroff -> ../bin/busybox
+lrwxrwxrwx  1 user user     14 Mar  2 21:41 reboot -> ../bin/busybox
+lrwxrwxrwx  1 user user     14 Mar  2 21:41 rmmod -> ../bin/busybox
+lrwxrwxrwx  1 user user     14 Mar  2 21:41 route -> ../bin/busybox
+lrwxrwxrwx  1 user user     14 Mar  2 21:41 slattach -> ../bin/busybox
+lrwxrwxrwx  1 user user     14 Mar  2 21:41 sulogin -> ../bin/busybox
+lrwxrwxrwx  1 user user     14 Mar  2 21:41 sysctl -> ../bin/busybox
+lrwxrwxrwx  1 user user     14 Mar  2 21:41 syslogd -> ../bin/busybox
+-rwxr-xr-x  1 user user 185367 May 10  2017 udevd
+lrwxrwxrwx  1 user user     14 Mar  2 21:41 vconfig -> ../bin/busybox
+
+firmware/Tenda2/squashfs-root/sys:
+total 8
+drwxr-xr-x  2 user user 4096 May 10  2017 .
+drwxr-xr-x 15 user user 4096 Mar  2 21:52 ..
+
+firmware/Tenda2/squashfs-root/tmp:
+total 8
+drwxr-xr-x  2 user user 4096 May 10  2017 .
+drwxr-xr-x 15 user user 4096 Mar  2 21:52 ..
+
+firmware/Tenda2/squashfs-root/usr:
+total 24
+drwxr-xr-x  6 user user 4096 May 10  2017 .
+drwxr-xr-x 15 user user 4096 Mar  2 21:52 ..
+drwxr-xr-x  2 user user 4096 May 10  2017 bin
+drwxr-xr-x  4 user user 4096 May 10  2017 lib
+drwxr-xr-x  5 user user 4096 May 10  2017 local
+drwxr-xr-x  2 user user 4096 May 10  2017 sbin
+lrwxrwxrwx  1 user user    6 Mar  2 21:41 tmp -> ../tmp
+
+firmware/Tenda2/squashfs-root/var:
+total 24
+drwxr-xr-x  6 user user 4096 May 10  2017 .
+drwxr-xr-x 15 user user 4096 Mar  2 21:52 ..
+drwxr-xr-x  2 user user 4096 May 10  2017 etc
+drwxr-xr-x  2 user user 4096 May 10  2017 home
+drwxr-xr-x  2 user user 4096 May 10  2017 root
+drwxr-xr-x  2 user user 4096 May 10  2017 webroot
+
+firmware/Tenda2/squashfs-root/webroot_ro:
+total 804
+drwxr-xr-x  8 user user   4096 May 10  2017 .
+drwxr-xr-x 15 user user   4096 Mar  2 21:52 ..
+-rwxr-xr-x  1 user user   1159 May 10  2017 ap_diagnosis.html
+-rwxr-xr-x  1 user user   1032 May 10  2017 black_list.html
+-rwxr-xr-x  1 user user   4653 May 10  2017 cloud_managment.html
+drwxr-xr-x  2 user user   4096 May 10  2017 css
+-rwxr-xr-x  1 user user   3909 May 10  2017 ddns_config.html
+-rwxr-xr-x  1 user user  23969 May 10  2017 default.cfg
+-rwxr-xr-x  1 user user 298157 May 10  2017 default_url.cfg
+-rwxr-xr-x  1 user user   2546 May 10  2017 dhcp_server.html
+-rwxr-xr-x  1 user user   5608 May 10  2017 directupgrade.html
+-rwxr-xr-x  1 user user   4275 May 10  2017 dlna.html
+-rwxr-xr-x  1 user user   2054 May 10  2017 dmz.html
+-rwxr-xr-x  1 user user   1868 May 10  2017 err_account.html
+-rwxr-xr-x  1 user user   2424 May 10  2017 err_dhcp_timeout.html
+-rwxr-xr-x  1 user user   2867 May 10  2017 err_noWan.html
+-rwxr-xr-x  1 user user   2436 May 10  2017 err_pppoe_timeout.html
+-rwxr-xr-x  1 user user   2238 May 10  2017 favicon.ico
+-rwxr-xr-x  1 user user   2081 May 10  2017 firewall.html
+drwxr-xr-x  2 user user   4096 May 10  2017 goform
+drwxr-xr-x  3 user user   4096 May 10  2017 img
+-rwxr-xr-x  1 user user  24306 May 10  2017 index.html
+-rwxr-xr-x  1 user user   2410 May 10  2017 ip_mac_bind.html
+-rwxr-xr-x  1 user user   4406 May 10  2017 iptv.html
+drwxr-xr-x  3 user user   4096 May 10  2017 js
+drwxr-xr-x  5 user user   4096 May 10  2017 lang
+-rwxr-xr-x  1 user user   4968 May 10  2017 lan.html
+-rwxr-xr-x  1 user user    888 May 10  2017 loginerr.html
+-rwxr-xr-x  1 user user   3973 May 10  2017 login.html
+-rwxr-xr-x  1 user user   6150 May 10  2017 mac_clone.html
+-rwxr-xr-x  1 user user   3827 May 10  2017 mac_filter.html
+-rwxr-xr-x  1 user user  59973 May 10  2017 main.html
+-rwxr-xr-x  1 user user   2326 May 10  2017 net_control.html
+-rwxr-xr-x  1 user user   9667 May 10  2017 net_set.html
+-rwxr-xr-x  1 user user   4797 May 10  2017 network-diagnose.html
+-rwxr-xr-x  1 user user  23234 May 10  2017 nvram_default.cfg
+-rwxr-xr-x  1 user user   2377 May 10  2017 online_list.html
+-rwxr-xr-x  1 user user   7848 May 10  2017 parental_control.html
+drwxr-xr-x  2 user user   4096 May 10  2017 pem
+-rwxr-xr-x  1 user user   6127 May 10  2017 pptp_client.html
+-rwxr-xr-x  1 user user   5057 May 10  2017 pptp_server.html
+-rwxr-xr-x  1 user user   1443 May 10  2017 pptp_user.html
+-rwxr-xr-x  1 user user   3084 May 10  2017 printer.html
+-rwxr-xr-x  1 user user   1129 May 10  2017 redirect.html
+-rwxr-xr-x  1 user user   2634 May 10  2017 remote_web.html
+-rwxr-xr-x  1 user user   6728 May 10  2017 samba.html
+-rwxr-xr-x  1 user user   5035 May 10  2017 simple_upgrade.asp
+-rwxr-xr-x  1 user user   4921 May 10  2017 sleep_mode.html
+-rwxr-xr-x  1 user user   2544 May 10  2017 static_route.html
+-rwxr-xr-x  1 user user   3238 May 10  2017 status_extender.html
+-rwxr-xr-x  1 user user   4014 May 10  2017 status_usb.html
+-rwxr-xr-x  1 user user   2455 May 10  2017 system_automaintain.html
+-rwxr-xr-x  1 user user   2122 May 10  2017 system_backup.html
+-rwxr-xr-x  1 user user   1302 May 10  2017 system_config.html
+-rwxr-xr-x  1 user user   3257 May 10  2017 system_led.html
+-rwxr-xr-x  1 user user   1908 May 10  2017 system_log.html
+-rwxr-xr-x  1 user user   2662 May 10  2017 system_password.html
+-rwxr-xr-x  1 user user   1976 May 10  2017 system_reboot.html
+-rwxr-xr-x  1 user user   1324 May 10  2017 system_restore.html
+-rwxr-xr-x  1 user user  11660 May 10  2017 system_status.html
+-rwxr-xr-x  1 user user   7268 May 10  2017 system_time.html
+-rwxr-xr-x  1 user user   7198 May 10  2017 system_upgrade.html
+-rwxr-xr-x  1 user user   1724 May 10  2017 upnp_config.html
+-rwxr-xr-x  1 user user   3042 May 10  2017 virtual_server.html
+-rwxr-xr-x  1 user user   1181 May 10  2017 wan_status.html
+-rwxr-xr-x  1 user user   3445 May 10  2017 wifi_ap.html
+-rwxr-xr-x  1 user user   2363 May 10  2017 wifi_bf.html
+-rwxr-xr-x  1 user user   3679 May 10  2017 wifi_power.html
+-rwxr-xr-x  1 user user    202 May 10  2017 wifi_signal.html
+-rwxr-xr-x  1 user user   4623 May 10  2017 wifi_time.html
+-rwxr-xr-x  1 user user   2178 May 10  2017 wifi_wps.html
+-rwxr-xr-x  1 user user   1020 May 10  2017 wireless_access.html
+-rwxr-xr-x  1 user user   4663 May 10  2017 wireless.html
+-rwxr-xr-x  1 user user   5521 May 10  2017 wireless_ssid.html
+-rwxr-xr-x  1 user user   9315 May 10  2017 wisp.html
+-rwxr-xr-x  1 user user   3027 May 10  2017 xunleiDownload.html
